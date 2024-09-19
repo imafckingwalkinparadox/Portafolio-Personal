@@ -1,0 +1,9 @@
+#root {
+    display: grid;
+    grid-template-columns: 30rem auto;
+}
+
+.nav_Bar {
+    grid-column: 1/0;
+    grid-row: 1/0;
+}
