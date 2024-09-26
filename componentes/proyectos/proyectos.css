@@ -7,25 +7,3 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.header {
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center     ;
-}
-
-.header h2 {
-    font-size: 2rem;
-}
-
-.header div {
-    background-color: red;
-    color: wheat;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
-    font-weight: 900;
-    font-weight: 1.4rem;
-    
-}
