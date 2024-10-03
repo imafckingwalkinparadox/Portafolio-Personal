@@ -1,5 +1,6 @@
 .nav_Bar{
     width: 350px;
+    height: 700px;
     border-right: 1px solid black;
 
 }
@@ -9,7 +10,6 @@
     grid-template-columns: 5rem auto;
 
     align-items: center;
-    border-right: 1px solid black;
     padding: 1rem;
     gap: 1px;
 

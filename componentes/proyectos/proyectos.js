@@ -37,7 +37,7 @@ function lista(nombre, web, github, stack){
     stacks.innerText = "[js, css, html]";
     div.appendChild(stacks);
 
-    let btnGithub = document.createElement('a');
+    let btnGithub = document.createElement('a');    
     btnGithub.className = "btn-github";
     btnGithub.href = "https://github.com/imafckingwalkinparadox/Proyectos_Formulario";
     btnGithub.innerHTML = "Github";
