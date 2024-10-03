@@ -20,7 +20,6 @@ function ListaProyectos(){
     return div;
 }
 
-
 //item lista
 function lista(nombre, web, github, stack){
     let div = document.createElement('div');
