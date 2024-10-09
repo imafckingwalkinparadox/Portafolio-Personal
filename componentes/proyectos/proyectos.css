@@ -3,16 +3,17 @@
 
 }
 
-.div-item{
+.div-item {
     border-bottom: 1px solid gray;
     padding: 1rem;
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
 }
 
-.link-github-page{
+.link-github-page {
     text-decoration: none;
+    color: #6a0dad; 
 }
 
 .btn-github {
@@ -22,8 +23,19 @@
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 3px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-descargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icono-descarga {
+    width: 24px; 
+    height: 24px;
 }
